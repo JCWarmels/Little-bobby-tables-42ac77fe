@@ -1,0 +1,143 @@
+#saveButton {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input[type=submit] {
+    background-color: rgb(216, 50, 0);
+    border: 3px red solid;
+    border-radius: 30% 14px;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-animation-name: redPulse;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes redPulse {
+    from { background-color: #9a2002; -webkit-box-shadow: 0 0 9px rgb(255, 0, 0); }
+    50% { background-color: #bd0f09; -webkit-box-shadow: 0 0 18px #bd0909; }
+    to { background-color: #9a2002; -webkit-box-shadow: 0 0 9px rgb(255, 0, 0); }
+}
+
+.sort {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    align-self: center;
+}
+#sortfather {
+    width: 600px;
+}
+input:not([name=submit]) {
+    text-align: center;
+    width: 300px;
+    background-color: black;
+    border: red 3px solid;
+    color: white;
+}
+textarea[name=description] {
+    resize: none;
+    background-color: black;
+    border: red 3px solid;
+    color: white;
+    width:300px;
+    padding: 1px 0px;
+}
+
+::placeholder {
+    color: white;
+}
+
+.bf {
+    background-color: rgb(216, 50, 0);
+    border: 3px red solid;
+    border-radius: 30% 14px;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-animation-name: redPulse;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+}
+
+ td, th {
+    border-left: red 3px solid;
+    border-top: red 3px solid;
+    color: white;
+    width: 160px;
+    height: 35px;
+}
+
+td:first-child, th:first-child {
+    border-left: none;
+    border-right: none;
+}
+
+th {
+    border-top: none;
+}
+
+table {
+    border: red 3px solid;
+    border-collapse: separate;
+    color: white;
+    border-radius: 15px;
+}
+
+h1, h2, h3, h4, h5, h6, p, input, textarea {
+    color: white;
+}
+
+html {
+    background-color: black;
+}
+
+#fx {
+    margin-left: 10px;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+  
+a:hover {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+#move {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.shapehead {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#hi {
+    margin-left: 5px;
+}
